@@ -1,0 +1,81 @@
+Feature: Validations : JWT
+  Scenario:  Sign using JWT
+    Given set "privateKey" to
+"""
+-----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+"""
+   And set "header" to 
+   """
+{
+  "alg": "RS256",
+  "ver": "GTP-1.0",
+  "keyId": 1
+}
+   """
+   Then "${header.alg}" is equal to "RS256"
+   When wait 5 milliseconds
+   And sign item "header" using jwt
+   And sign using jwt:
+"""
+{
+  "number": null,
+  "id": null,
+  "exp": 1590176139,
+  "iat": 1590176019,
+  "jti": "fd867c6d-fcd5-4e5c-9bbf-95479a424f8f",
+  "realm": "INT",
+  "type": "access",
+  "username": "LNMAF"
+}
+"""
+
