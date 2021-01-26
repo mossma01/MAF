@@ -502,7 +502,7 @@ Hw4T47BdDgrkxTSoBpzVvprvGMuB7WHpqqL39CTjIBhvmauUZBYrho4LbOZZ
    """
 When sign using jwt:
 """
-{ "soap": "http://schemas.xmlsoap.org/soap/envelope/", "ln":"http://***REMOVED***.risk.***REMOVED***nexis.com" }
+{ "soap": "http://schemas.xmlsoap.org/soap/envelope/", "repo": "MAF" }
 """
 ```
 
